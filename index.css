@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #0C4A6E;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family:digital-7;
+    src: url(digital-7.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    margin:auto;
+    
+    font-size:30px;
+    margin-bottom: 0px;
+}
+
+.score{
+    border: 1px solid black;
+    border-radius: 2px;
+    color: #F94F6D;
+    background-color: black;
+    font-family: digital-7;
+    font-size: 90px;
+    width: 120px;
+    margin: 20px;
+}
+
+.points {
+    color:#EEEEEE;
+    background-color:#0C4A6E;
+    border:1px solid #EEEEEE;
+    border-radius: 2px;
+    font-family: digital-7;
+    font-size:20px;
+    height:30px;
+    width:30px;
+}
+
+#resetbutton{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+   
+}
+
+#reset{
+    color:black;
+    background-color: #EEEEE;
+    border: 1px solid #EEEEEE;
+    border-radius: 2px;
+    margin-top: 40px;
+    padding: 12px 10px;
+    font-style: bold;
+}
